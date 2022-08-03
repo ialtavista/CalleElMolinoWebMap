@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Mapa ITV</title>
+    	<!-- External Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/leaflet-betterscale/L.Control.BetterScale.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+       integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+       crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+       integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+       crossorigin=""></script>
+    <script src="lib/leaflet-betterscale/L.Control.BetterScale.js"></script>
+    <link rel="stylesheet" href="lib/Leaflet-MiniMap-master/src/Control.MiniMap.css"/>
+  	<script src="lib/Leaflet-MiniMap-master/src/Control.MiniMap.js"></script>
+    <script src="lib/leaflet-side-by-side/leaflet-side-by-side.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head> 
+  <body>
+      <div id="contenido">
+        <div>
+        <h2 id="titulo" align="center">INSPECCIÓN TELEVISIVA <img id="imagen" src="icons/LOGO-Model.jpg"></h2>
+        <P align="left">Objetivo: Evaluar el estado de la red local de aguas servidas. </p>
+        <P align="left">Dirección: Calle del Molino, Sector Los Lirios, Concepción. </p>
+        <P align="left">Fecha: 2018.11.06</p><br>
+        </div>
+           <p align="justify"><button onclick="window.open('http://www.youtube.com/watch_popup?v=GMVmJeVqFfw')" 
+            id="botonitv1031" class="float-left-submit-button"> &#9658;</button> <b>I-18-103 ITV1: </b> Colectores operativos y sin defectos. Se detecta CP ID113130 (cámara perdida) a 10,5 m desde CP ID 113129 y a 9 m desde CP ID 34897 respectivamente.</p>
+
+          <p align="justify"><button onclick="window.open('http://www.youtube.com/watch_popup?v=rRjCrh3SRfw')" 
+            id="botonitv1032" class="float-left-submit-button"> &#9658;</button> <b>I-18-103 ITV2: </b> Colector presuntamente irregular(COL1). Presenta daños estructurales,principalmente deformación por carga y flexión en algunos tramos. Producto de la deformación del techo a los 5,30 m no es posible continuar la ITV. ITV a contra pendiente.</p>
+
+          <p align="justify"><button onclick="window.open('http://www.youtube.com/watch_popup?v=s03wp48aY0M')" 
+            id="botonitv1033" class="float-left-submit-button"> &#9658;</button> <b>I-18-103 ITV3: </b> UD operativa con deformaciones localizadas. Se detecta conexión presuntamente irregular (COL2) a 11,5 m.</p>
+
+          <p align="justify"><button onclick="window.open('http://www.youtube.com/watch_popup?v=4vXpu1XBKTc')" 
+            id="botonitv1041" class="float-left-submit-button"> &#9658;</button> <b>I-18-104 ITV1: </b> Colector operativo, presuntamente irregular(COL1). Presenta daños estructurales, principalmente descuelgue de uniones y deformaciones localizadas en algunos tramos. Producto de la deformación del techo a los 19,23 m no es posible continuar la ITV. ITV a favor de pendiente.</p>
+
+          <p align="justify"><button onclick="window.open('http://www.youtube.com/watch_popup?v=w38_I_znhYs')" 
+            id="botonitv1042" class="float-left-submit-button"> &#9658;</button> <b>I-18-104 ITV2: </b> Colector operativo, presuntamente irregular(COL4). Presenta daños estructurales,principalmente deformación por carga y flexión en algunos tramos. Producto de la obstrucción total del colector con sedimentos y raices a los 27,60 m se abandona la ITV.</p>
+
+          <p align="justify"><button onclick="window.open('http://www.youtube.com/watch_popup?v=l_9Qw2WOsJE')" 
+            id="botonitv1044" class="float-left-submit-button"> &#9658;</button> <b>I-18-104 ITV4:</b> UD operativa con defectos estructurales. Rotura en el techo y descuelgue de unión con infiltración a los 3,82 m.</p>
+      </div>
+  	  <div id="map"></div>  
+    <script src="layers/capas.js" type="text/javascript"></script>
+  	<script src="js/script_blank.js" type="text/javascript"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "col_irr",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32718" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "nombre": "COL2" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 677217.060002895537764, 5921960.870382687076926 ], [ 677201.699980438803323, 5921947.418726656585932 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 1, "nombre": "COL3" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 677213.512874708743766, 5921959.279611173085868 ], [ 677203.969074665452354, 5921957.499711089767516 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 2, "nombre": "COL2" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 677219.215773170231842, 5921949.210431076586246 ], [ 677190.344849708490074, 5921936.081883576698601 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 3, "nombre": "COL1" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 677203.685922736302018, 5921957.301892618648708 ], [ 677156.068053746828809, 5921923.903819154016674 ] ] ] } }
+]
+}
